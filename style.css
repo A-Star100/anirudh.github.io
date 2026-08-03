@@ -1,16 +1,15 @@
-/* Refer to this for styling */
-/* Basic Styling */
+/* fallback stuff for styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
 }
 
 .et_menu_container {
-    padding: 0; /* Remove default padding inside the sidebar */
+    padding: 0;
 }
 
 .full-width-cover {
-  flex: 1; /* Ensures the div spans all width inside flex container */
+  flex: 1;
       height: 100px;
       width: 100vw; 
 }
@@ -23,17 +22,15 @@ body {
 
            color: #fff;
 
-           /* Other dark mode styles here */
-
        }
 
    }
 
 
 .custom-menu-button {
-    margin: 0; /* Remove any margin */
-    position: relative; /* Optional for fine-tuning */
-    top: 0; /* Aligns it closer to the top */
+    margin: 0;
+    position: relative;
+    top: 0; 
 }
 
 
@@ -49,12 +46,12 @@ body {
 .center {
   display: flex;
     flex-direction: column;
-    justify-content: flex-start; /* Pushes the div to the bottom */
+    justify-content: flex-start;
     left: 0;
     width: 100%;
 }
 .border {
-  width: 10px; /* Fixed width for the border */
+  width: 10px;
 }
 
 .horizontal-menu {
